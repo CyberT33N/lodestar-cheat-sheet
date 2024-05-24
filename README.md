@@ -19,3 +19,8 @@ git clone https://github.com/ChainSafe/lodestar-quickstart.git
 # Silent
 ./setup.sh --dataDir sepolia-data --elClient nethermind --network sepolia --detached --dockerWithSudo
 ```
+
+## Kill
+```
+sudo kill -9 $(sudo lsof -t -i :8551) && sudo kill -9 $(sudo lsof -t -i :30303)                                                      
+```
