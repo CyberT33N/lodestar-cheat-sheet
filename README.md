@@ -13,5 +13,9 @@
 sudo apt install gnome-terminal
 git clone https://github.com/ChainSafe/lodestar-quickstart.git
 
-./setup.sh --dataDir sepolia-data --elClient nethermind --network sepolia --withTerminal "gnome-terminal --disable-factory --" --dockerWithSudo 
+# Non Silent
+./setup.sh --dataDir sepolia-data --elClient nethermind --network sepolia --withTerminal "gnome-terminal --disable-factory --" --dockerWithSudo
+
+# Silent
+./setup.sh --dataDir sepolia-data --elClient nethermind --network sepolia --detached --dockerWithSudo
 ```
