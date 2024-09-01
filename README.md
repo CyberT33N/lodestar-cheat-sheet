@@ -19,6 +19,8 @@ git clone https://github.com/ChainSafe/lodestar-quickstart.git
 # Silent
 ./setup.sh --dataDir sepolia-data --elClient nethermind --network sepolia --detached --dockerWithSudo
 ```
+- RPC endpoint will be available from nethermind under http://localhost:8545/
+
 
 ## Kill
 ```(base)  ✘   ~/Projects/lodestar-quickstart   main  sudo docker ps              
